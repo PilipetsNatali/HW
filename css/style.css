@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.firstclass {
+  height: 250px;
+  width: 1097px;
+  background: white;
+  border: 7px solid lightcyan;
+  text-align: center;
+}
+
+.navigation li {
+  width: 20%;
+  float: left;
+}
+
+.navigation li a { 
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a:hover { 
+   color: lightcyan;
+}
+
+.menu {
+  height: 30px;
+  width: 1097px;
+  padding: 10px;
+  text-align: center;
+  background: darkslateblue;
+}
+
+.clearfix: after { 
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.secondclass {
+  height: 700px;
+  
+  width: 1080px;
+  background: lightcyan;
+  color: darkslateblue;
+  padding: 15px;
+  font-size: 22px;
+} 
+
+h2 { 
+  font-size: 24px;
+  font-weight: bolder; 
+}
+
+.contacts { 
+  height: 200px;
+  padding: 25px;
+  font-size: 22px;
+  line-height: 1.5;
+}               
+
+.contacts a { 
+  color: black;
+  text-decoration: none; 
+}
+
+.contacts a:hover { 
+  color: cyan;
+}
+
+.arrow_up { 
+  position:sticky;
+  bottom: 200px;
+  font-size: 60px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.arrow_up a {
+  color: #2AD1BO;
+  text-decoration: none;
+}
+
+.footer {
+  background-image: url(../images/006jpg); 
+  height: 250px;
+  width: 1440px;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500px;
+  line-height: 1.5;
+
+
+}
+
+
+
+
+
+  
+
+
+
